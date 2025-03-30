@@ -1,0 +1,109 @@
+.alert-dismissible {
+    padding-right: 3rem;
+}
+
+.alert-dismissible .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding: 1.25rem 1rem;
+}
+
+.btn-close {
+    box-sizing: content-box;
+    width: 0.75rem;
+    height: 0.75rem;
+    padding: 0.25em 0.25em;
+    color: #000000;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/0.75rem auto no-repeat;
+    border: 0;
+    border-radius: 4px;
+    opacity: 0.3;
+}
+
+.btn-close:hover {
+    color: #000000;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+.btn-close:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(32, 107, 196, 0.25);
+    opacity: 1;
+}
+
+.btn-close:disabled, .btn-close.disabled {
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    opacity: 0.25;
+}
+
+.btn-close-white {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.toast-header {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    color: #626976;
+    background-color: rgba(255, 255, 255, 0.85);
+    background-clip: padding-box;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.toast-header .btn-close {
+    margin-right: -0.375rem;
+    margin-left: 0.75rem;
+}
+
+.offcanvas-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem;
+}
+
+.offcanvas-header .btn-close {
+    padding: 0.75rem 0.75rem;
+    margin-top: -0.75rem;
+    margin-right: -0.75rem;
+    margin-bottom: -0.75rem;
+}
+
+.theme-dark .btn-close,
+.theme-dark .accordion-button:after {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.theme-dark-auto .btn-close,
+.theme-dark-auto .accordion-button:after {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.btn-close {
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-close:focus {
+    outline: none;
+}
+
+.modal-content .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+}

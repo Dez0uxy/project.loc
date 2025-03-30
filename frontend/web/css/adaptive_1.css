@@ -1,0 +1,25 @@
+/* MEDIA QUERIES */
+/* Responsify Defaults */
+
+@media screen and (max-width: 1470px) {
+    .top-nav ul li a{
+        padding: 18px;
+        font: normal 14px/16px 'Fauna One', serif;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .top-nav ul li a{
+        padding: 12px;
+        font: normal 12px/14px 'Fauna One', serif;
+    }
+    .logo {
+        width: 440px;
+    }
+}
+@media (max-width: 768px) {
+    .model {
+        width:40%;
+        float:left;
+        min-width:150px;
+    }
+}

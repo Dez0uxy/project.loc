@@ -1,0 +1,73 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Project Template",
+    "keywords": ["yii2", "framework", "advanced", "project template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2-imagine": "*",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-bootstrap4": "~2.0.0",
+        "developeruz/yii2-db-rbac": "*",
+        "kartik-v/yii2-dropdown-x": "*",
+        "kartik-v/yii2-bootstrap4-dropdown": "@dev",
+        "kartik-v/yii2-grid": "dev-master",
+        "kartik-v/yii2-editable": "dev-master",
+        "kartik-v/yii2-export": "@dev",
+        "kartik-v/yii2-mpdf": "dev-master",
+        "kartik-v/yii2-widget-datepicker": "^1.4",
+        "kartik-v/yii2-widget-colorinput": "dev-master",
+        "kartik-v/yii2-widget-depdrop": "@dev",
+        "kartik-v/yii2-widget-fileinput": "@dev",
+        "kartik-v/yii2-widget-select2": "@dev",
+        "kartik-v/yii2-widget-typeahead": "dev-master",
+        "arogachev/yii2-sortable": "*",
+        "synamen/yii2-tabler-theme": "~1.0",
+        "readly24/yii2-air-datepicker": "dev-master",
+        "phpoffice/phpspreadsheet": "^1.8",
+        "moonlandsoft/yii2-tinymce": "*",
+        "kidzen/yii2-dynamicform": "^2.5",
+        "delikates-nsk/yii2-tree-dropdown": "@dev",
+        "lis-dev/nova-poshta-api-2": "~0.1.0",
+        "omnilight/yii2-shopping-cart": "*",
+        "shuchkin/simplexlsxgen": "^1.2",
+        "symfony/dom-crawler": "^3.4",
+        "symfony/mailer": "^5.4",
+        "symfony/mime": "^5.4",
+        "yiisoft/yii2-symfonymailer": "^3.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.1.0",
+        "yiisoft/yii2-gii": "~2.2.0",
+        "insolita/yii2-migration-generator": "~3.1"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        },
+        "platform": {
+            "php": "8.0"
+        },
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
